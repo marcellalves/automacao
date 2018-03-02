@@ -27,7 +27,7 @@ CapsLock & k::
 	SendInput ^#{Right}
 Return
 
-#+1::
+CapsLock & 1::
 	send, M-n-@-420326
 Return
 
@@ -56,7 +56,7 @@ Return
 	run, chrome.exe https://dropbox.com
 Return
 
-#+e::
+CapsLock & e::
 	send, marcell.alves@gmail.com
 Return
 
