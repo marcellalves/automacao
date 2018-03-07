@@ -98,11 +98,11 @@ Return
 	run chrome.exe https://docs.google.com/spreadsheets/d/1izDuseis7HwGSbVz4tPvPDBJjtt2OzxT9v78onJGnTs/edit#gid=0
 Return
 
-#+p::
+CapsLock & p::
 	run, %comspec% /c "start F:\Squadra\w4c\VisualStudioPackage\Package\Wings4CloudPackage\Wings4CloudPackage.sln"
 Return
 
-#+q::
+CapsLock & q::
 	today = %a_now%
 	today += -1, days
 	FormatTime, today, %today%, d/M/yyyy
@@ -114,12 +114,8 @@ CapsLock & r::
 	Reload
 Return
 
-#+s::
+CapsLock & s::
 	run, %comspec% /c "start F:\Squadra\w4c\Wings4Cloud.SDK\Wings4Cloud.SDK.sln"
-Return
-
-#+t::
-	send, F:\Marcell\Temp
 Return
 
 #+u::
