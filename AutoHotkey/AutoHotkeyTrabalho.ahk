@@ -60,6 +60,10 @@ CapsLock & e::
 	send, marcell.alves@gmail.com
 Return
 
+#+E::
+	ExitApp
+Return
+
 #+f::
 	send, mudar123
 Return
